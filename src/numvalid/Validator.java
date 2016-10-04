@@ -1,9 +1,5 @@
 package numvalid;
 
-/**
- *
- * @author santeri
- */
 public final class Validator {
 
     public Validator(String string) throws Exception {
@@ -21,8 +17,8 @@ public final class Validator {
             return true;
         }
         /*
-        Ideana oli tehdä rekursiivinen metodi joka apumetodeja käyttäen tunnistaa lailliset kirjainyhdistelmät, kuten XII tai CD
-        ja jakaa merkkijonon tavuihin, missä jokaisen seuraavan tavun tulee olla paitsi validi muodoltaan, myös edellistä
+        Ideana oli tehdä rekursiivinen metodi joka apumetodeja käyttäen tunnistaa lailliset kirjainyhdistelmät ja
+        jakaa merkkijonon tavuihin, missä jokaisen seuraavan tavun tulee olla paitsi validi muodoltaan, myös edellistä
         tavua pienempi arvoltaan
          */
         

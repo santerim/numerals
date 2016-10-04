@@ -1,9 +1,5 @@
 package numvalid;
 
-/**
- *
- * @author santeri
- */
 public class Converter {
     
     private final int value;
