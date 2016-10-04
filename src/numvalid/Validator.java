@@ -32,13 +32,4 @@ public final class Validator {
     private int getValue(String string) {
         return Numeral.valueOf(string).value;
     }
-
-    private boolean isLetterCombinationANumeral(String string) {
-        try {
-            getValue(string);
-        } catch (Exception ex) {
-            return false;
-        }
-        return true;
-    }
 }
