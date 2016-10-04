@@ -24,12 +24,12 @@ public class Numvalid {
 
         
         
-        try {
-            Validator v = new Validator("MIVX");
-        } catch (Exception ex){
-            System.out.println(ex.getMessage());
-            System.exit(0);
-        }
+//        try {
+//            Validator v = new Validator("MIVX");
+//        } catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//            System.exit(0);
+//        }
 
     }
 
